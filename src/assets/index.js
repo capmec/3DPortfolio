@@ -26,6 +26,9 @@ import meta from './company/meta.png'
 import shopify from './company/shopify.png'
 import starbucks from './company/starbucks.png'
 import tesla from './company/tesla.png'
+import vlb from './company/vlb.png'
+import cloudhouse from './company/cloudhouse.png'
+import amasv from './company/amasv.png'
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
@@ -58,6 +61,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  vlb,
+  cloudhouse,
+  amasv,
   carrent,
   jobit,
   tripguide,
