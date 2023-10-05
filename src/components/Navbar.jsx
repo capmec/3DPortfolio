@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { capmec, menu, close } from '../assets'
+import { github, capmec, menu, close } from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState('')
@@ -53,19 +53,28 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? 'text-white' : 'text-secondary'
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
-        </ul>
+        <div className='flex flex-row gap-8 justify-between items-center'>
+          <img
+            src={github}
+            alt='logo'
+            className=' w-12 h-12 object-contain items-end  cursor-pointer'
+            onClick={() => window.open('https://github.com/capmec', '_blank')}
+          />
+
+          <ul className='list-none hidden sm:flex flex-row gap-10'>
+            {navLinks.map((nav) => (
+              <li
+                key={nav.id}
+                className={`${
+                  active === nav.title ? 'text-white' : 'text-secondary'
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                onClick={() => setActive(nav.title)}
+              >
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img

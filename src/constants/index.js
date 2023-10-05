@@ -25,6 +25,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  tshirt,
 } from '../assets'
 
 export const navLinks = [
@@ -213,8 +214,8 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: tshirt,
+    source_code_link: 'https://t-shirt-customiser-seven.vercel.app/',
   },
   {
     name: 'Job IT',

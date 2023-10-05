@@ -29,12 +29,14 @@ import tesla from './company/tesla.png'
 import vlb from './company/vlb.png'
 import cloudhouse from './company/cloudhouse.png'
 import amasv from './company/amasv.png'
+import tshirt from './t-shirt.png'
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
 import tripguide from './tripguide.png'
 
 export {
+  tshirt,
   capmec,
   logo,
   backend,
