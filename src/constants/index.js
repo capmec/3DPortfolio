@@ -1,8 +1,5 @@
 import {
-	mobile,
-	backend,
-	creator,
-	web,
+	BFlix,
 	javascript,
 	typescript,
 	html,
@@ -22,8 +19,8 @@ import {
 	tesla,
 	shopify,
 	carrent,
-	jobit,
-	tripguide,
+	chatApp,
+	meetApp,
 	threejs,
 	tshirt,
 } from '../assets'
@@ -218,37 +215,41 @@ const projects = [
 		source_code_link: 'https://t-shirt-customiser-seven.vercel.app/',
 	},
 	{
-		name: 'Job IT',
+		name: 'Chat Chatting App',
 		description:
-			'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+			'In this project, I developed a chat application that allows users to communicate in real-time.',
 		tags: [
 			{
-				name: 'react',
+				name: 'React-Native',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'restapi',
+				name: 'Expo',
 				color: 'green-text-gradient',
 			},
 			{
 				name: 'scss',
 				color: 'pink-text-gradient',
 			},
+			{
+				name: 'Node.js',
+				color: 'blue-text-gradient',
+			},
 		],
-		image: jobit,
-		source_code_link: 'https://github.com/',
+		image: chatApp,
+		source_code_link: 'https://github.com/capmec/chat-app',
 	},
 	{
-		name: 'Trip Guide',
+		name: 'Meet-app',
 		description:
-			'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+			'The Meet app is a serverless, React-based PWA developed with TDD techniques. It aims to help users discover and manage upcoming events by integrating with the Google Calendar API, providing a user-friendly interface for schedule management.',
 		tags: [
 			{
-				name: 'nextjs',
+				name: 'React',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'supabase',
+				name: 'AWS Lambda',
 				color: 'green-text-gradient',
 			},
 			{
@@ -256,8 +257,29 @@ const projects = [
 				color: 'pink-text-gradient',
 			},
 		],
-		image: tripguide,
-		source_code_link: 'https://github.com/',
+		image: meetApp,
+		source_code_link: 'https://capmec.github.io/meet-app/',
+	},
+	{
+		name: 'BFlix',
+		description:
+			'BFlix, a MERN stack application that allows users to explore a collection of movies, manage their favorite movies, and update their user profile.',
+		tags: [
+			{
+				name: 'React',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'MongoDB',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'Express.js',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: BFlix,
+		source_code_link: 'https://bflixb.netlify.app/login',
 	},
 ]
 
