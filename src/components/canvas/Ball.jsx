@@ -44,19 +44,21 @@ const Ball = (props) => {
 
 const BallCanvas = ({ icon, title }) => {
 	return (
-		<div className='w-full h-full flex items-center justify-center'>
-			<Canvas
-				className='w-full h-full'
-				frameloop='demand'
-				dpr={[1, 2]}
-				gl={{ preserveDrawingBuffer: true }}>
-				<Suspense fallback={<CanvasLoader />}>
-					<OrbitControls enableZoom={false} />
-					<Ball imgUrl={icon} />
-				</Suspense>
-
-				<Preload all />
-			</Canvas>
+		<div className='w-full h-full flex flex-col items-center justify-center'>
+			{/* Render title above the ball */}
+			<h3 className='mb-2 text-lg font-semibold text-gray-800'>{title}</h3>
+			<div className='w-full h-full'>
+				<Canvas
+					frameloop='demand'
+					dpr={[1, 2]}
+					gl={{ preserveDrawingBuffer: true }}>
+					<Suspense fallback={<CanvasLoader />}>
+						<OrbitControls enableZoom={false} />
+						<Ball imgUrl={icon} />
+					</Suspense>
+					<Preload all />
+				</Canvas>
+			</div>
 		</div>
 	);
 };
