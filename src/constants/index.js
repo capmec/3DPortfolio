@@ -23,7 +23,7 @@ import {
 	meetApp,
 	threejs,
 	tshirt,
-} from '../assets'
+} from '../assets';
 
 export const navLinks = [
 	{
@@ -38,7 +38,7 @@ export const navLinks = [
 		id: 'contact',
 		title: 'Contact',
 	},
-]
+];
 
 const services = [
 	{
@@ -57,12 +57,13 @@ const services = [
 		title: 'UI/UX Designer',
 		icon: figma,
 	},
-]
+];
 
 const technologies = [
 	{
 		name: 'HTML 5',
 		icon: html,
+		title: 'HTML5',
 	},
 	{
 		name: 'CSS 3',
@@ -112,7 +113,7 @@ const technologies = [
 		name: 'docker',
 		icon: docker,
 	},
-]
+];
 
 const experiences = [
 	{
@@ -163,7 +164,7 @@ const experiences = [
 			'Management and trade logistics for publishers and TV stations.',
 		],
 	},
-]
+];
 
 const testimonials = [
 	{
@@ -190,7 +191,7 @@ const testimonials = [
 		company: '456 Enterprises',
 		image: 'https://randomuser.me/api/portraits/women/6.jpg',
 	},
-]
+];
 
 const projects = [
 	{
@@ -281,6 +282,6 @@ const projects = [
 		image: BFlix,
 		source_code_link: 'https://bflixb.netlify.app/login',
 	},
-]
+];
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, testimonials, projects };
