@@ -17,7 +17,7 @@ const Ball = (props) => {
 			speed={1.75}
 			rotationIntensity={1}
 			floatIntensity={2}>
-			<ambientLight intensity={0.25} />
+			<ambientLight intensity={0.95} />
 			<directionalLight position={[0, 0, 0.05]} />
 			<mesh
 				castShadow
@@ -46,7 +46,7 @@ const BallCanvas = ({ icon, title }) => {
 	return (
 		<div className='w-full h-full flex flex-col items-center justify-center'>
 			{/* Render title above the ball */}
-			<h3 className='mb-2 text-lg font-semibold text-gray-800'>{title}</h3>
+			<h3 className='mb-2 text-lg font-semibold text-gray-400'>{title}</h3>
 			<div className='w-full h-full'>
 				<Canvas
 					frameloop='demand'
