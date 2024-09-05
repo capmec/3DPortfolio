@@ -118,16 +118,7 @@ const technologies = [
 		icon: postgres,
 		title: 'PostgreSQL',
 	},
-	{
-		name: 'Three JS',
-		icon: threejs,
-		title: 'ThreeJS',
-	},
-	{
-		name: 'git',
-		icon: git,
-		title: 'git',
-	},
+
 	{
 		name: 'gitHub',
 		icon: gitHub,
