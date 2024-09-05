@@ -166,7 +166,7 @@ const experiences = [
 		company_name: 'Cloudhouse Flavours',
 		icon: cloudhouse,
 		iconBg: '#ffffff',
-		date: 'Oct 2015 - Oct 2018',
+		date: '2015 - 2018',
 		points: [
 			'E-commerce webmaster management.',
 			'Planning and managing logistics, warehouse, transportation and customer services.',
@@ -178,7 +178,7 @@ const experiences = [
 		company_name: 'A+V / Zarpa Media',
 		icon: amasv,
 		iconBg: '#ffffff',
-		date: 'Jul 2012 - Aug 2014',
+		date: '2012 - 2014',
 		points: [
 			'Coordinator of the Digital Delivery of advertising films.',
 			'Website, Platform of audio and video codecs development.',
